@@ -1,4 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppings', sans-serif;
+    line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 ul{
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+    padding:30px;
 }
